@@ -17,7 +17,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### 1. Clone this template
 
-```
+```shell
 npx create-next-app -e https://github.com/beekman/bgb-boilerplate YOUR_APP_NAME
 ```
 
@@ -25,21 +25,21 @@ npx create-next-app -e https://github.com/beekman/bgb-boilerplate YOUR_APP_NAME
 
 Node Version Manager (NVM) is recommended to maintain node version consistency with dependencies. If you don't already have NVM set up on your computer, use [this guide](https://github.com/nvm-sh/nvm) to get started. To specify the node version in the `.nvmrc` file:
 
-```
-nvm use
+```shell
+echo "16" > .nvmrc
 ```
 
 Then install dependencies:
 
-```
+```shell
 yarn install
 ```
 
-### 3. Build out your app!
+### 3. Build out your app
 
 First, run the development server:
 
-```
+```shell
 yarn dev
 ```
 
@@ -61,19 +61,19 @@ Customize `src/styles/variables.css` with your own theme variables for use throu
 
 To run tests in watch mode:
 
-```
+```shell
 yarn unit
 ```
 
 And to run all tests once with coverage information:
 
-```
+```shell
 yarn test
 ```
 
 This project uses Prettier for code formatting. To format all files:
 
-```
+```shell
 yarn format
 ```
 
