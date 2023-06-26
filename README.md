@@ -11,14 +11,14 @@
 - 🛄 SVGR webpack set-up and sample icons
 - Starter CSS theme variables, custom 404 page, and example components and test
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) via 🍽️ [MJB Boilerplate](https://github.com/MollyJeanB/mjb-boilerplate).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and is based off of 🍽️ [MJB Boilerplate](https://github.com/MollyJeanB/mjb-boilerplate) with my own modifications to match my personal preferences.
 
 ## Getting Started
 
 ### 1. Clone this template
 
 ```
-npx create-next-app -e https://github.com/MollyJeanB/mjb-boilerplate YOUR_APP_NAME
+npx create-next-app -e https://github.com/beekman/bgb-boilerplate YOUR_APP_NAME
 ```
 
 ### 2. Install dependencies
