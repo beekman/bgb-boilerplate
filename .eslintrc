@@ -1,9 +1,6 @@
 {
-  "root": true,
-  "extends": "next/core-web-vitals",
-  "plugins": [
-    "testing-library"
-  ],
+  "plugins": ["prettier"],
+  "extends": ["next", "next/core-web-vitals", "prettier"],
   "rules": {
     "prettier/prettier": "error",
     "camelcase": "off",
@@ -25,50 +22,23 @@
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
-        "components": [
-          "Link"
-        ],
-        "specialLink": [
-          "hrefLeft",
-          "hrefRight"
-        ],
-        "aspects": [
-          "invalidHref",
-          "preferButton"
-        ]
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
       }
     ]
   },
   "overrides": [
-    // Only uses Testing Library lint rules in test files
-    {
-      "files": [
-        "**/__tests__/**/*.[jt]s?(x)",
-        "**/?(*.)+(spec|test).[jt]s?(x)"
-      ],
-      "extends": [
-        "plugin:testing-library/react"
-      ]
-    },
     {
       "files": "**/*.+(ts|tsx)",
       "parser": "@typescript-eslint/parser",
-      "plugins": [
-        "@typescript-eslint/eslint-plugin"
-      ],
-      "extends": [
-        "plugin:@typescript-eslint/recommended",
-        "prettier"
-      ],
+      "plugins": ["@typescript-eslint/eslint-plugin"],
+      "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
       "rules": {
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
-        "no-use-before-define": [
-          0
-        ],
-        "@typescript-eslint/no-use-before-define": [
-          1
-        ],
+        "no-use-before-define": [0],
+        "@typescript-eslint/no-use-before-define": [1],
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-var-requires": "off"
       }
