@@ -1,4 +1,4 @@
-# 🍽️ MJB Boilerplate
+# 🍽️ BGB Boilerplate
 
 ### Customized Next.js + TypeScript + CSS Modules + React Testing Library & Jest Quickstart
 
@@ -11,7 +11,7 @@
 - 🛄 SVGR webpack set-up and sample icons
 - Starter CSS theme variables, custom 404 page, and example components and test
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and is based off of 🍽️ [MJB Boilerplate](https://github.com/MollyJeanB/mjb-boilerplate) with my own modifications to match my personal preferences.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) using 🍱[BGB Boilerplate](https://github.com/MollyJeanB/mjb-boilerplate), which was originally based off of 🍽️ [MJB Boilerplate](https://github.com/MollyJeanB/mjb-boilerplate), adding my own modifications to match my personal preferences.
 
 ## Getting Started
 
